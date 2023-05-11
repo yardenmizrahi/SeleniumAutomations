@@ -1,0 +1,2268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+          integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <style>
+        .pills, .pillspage {
+            border: 5px solid #424242
+        }
+
+        body {
+            background-color: #424242;
+            font-family: Roboto, sans-serif
+        }
+
+        .header {
+            color: #ffc400;
+            text-align: center;
+            margin: 20px
+        }
+
+        .pills {
+            padding: 35px 5px
+        }
+
+        .pillspage {
+            padding: 15px 5px
+        }
+
+        .specs {
+            font-size: 10px !important
+        }
+
+        .time {
+            margin-bottom: 10px !important
+        }
+
+        .pagespechold {
+            padding-top: 12px
+        }
+
+        .pagespec {
+            border: 2px solid #6c757d;
+            padding: 8px 5px;
+            font-size: 18px
+        }
+
+        .viewreport {
+            padding-top: 10px
+        }
+
+        hr {
+            margin-top: 0 !important;
+            margin-bottom: .5em !important
+        }
+
+        .btncollapse {
+            padding: 5px
+        }
+
+        .tab-content > .tab-pane {
+            margin-top: 10px;
+        }
+
+        .issuenode {
+            margin-left: 60px;
+            margin-bottom: 5px
+        }
+
+        .alert {
+            margin: 5px !important
+        }
+
+        .alert, .badge, .btn, .card {
+            border-radius: 0 !important
+        }
+
+        .footer {
+            min-height: 60px
+        }
+
+        .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+            color: #ffc400;
+            background-color: dimgrey;
+            border-color: transparent transparent #f3f3f3;
+            border-bottom: 6px solid #eee !important;
+            font-size: 20px;
+        }
+
+        .nav-tabs .nav-link {
+            border: none !important;
+            border-top-left-radius: .25rem;
+            border-top-right-radius: .25rem;
+            color: #ffc400;
+            font-size: 20px;
+        }
+
+        table {
+            font-size: .8rem !important;
+        }
+
+        .btn-link {
+            padding: inherit !important;
+            font-size: 0.8rem !important;
+        }
+
+        .badge-pill {
+            border-radius: 10rem !important;
+            white-space: normal;
+        }
+
+    </style>
+    <title>Report</title>
+</head><body>
+<h1 class="header"><i class="fas fa-universal-access"></i> About – ATID Demo Store</h1><div class="container">
+    <br>
+    <h3 class="text-white text-center">Page Statistics</h3>
+<div class="row">
+    <div class="col-lg-6 col-md-6">
+        <h6 class="text-info text-truncate"><i class="fas fa-external-link-alt text-warning"></i><span
+                    class="text-warning"> Url</span> : https://atid.store/about/</h6>
+        <hr/>
+    </div>
+    <div class="col-lg-6 col-md-6">
+        <h6 class="text-info"><i class="fas fa-list-ul text-warning"></i><span class="text-warning"> Standard</span>
+            : <span class="badge badge-pill badge-info">WCAG2A</span></h6>
+        <hr/>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-6 col-md-6">
+        <h6 class="text-info">
+            <i class="far fa-credit-card text-warning"></i><span
+                    class="text-warning"> Browser</span>
+            : Chrome 113.0.0.0</h6>
+        <hr/>
+    </div>
+    <div class="col-lg-6 col-md-6">
+        <h6 class="text-info"><i class="fas fa-arrows-alt text-warning"></i><span
+                    class="text-warning"> Browser size</span> : 1039 X 535</h6>
+        <hr/>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-6 col-md-6">
+        <h6 class="text-info"><i class="far fa-window-restore text-warning"></i><span
+                    class="text-warning"> Device</span> : Small Laptop</h6>
+        <hr/>
+    </div>
+    <div class="col-lg-6 col-md-6">
+        <h6 class="text-info"><i class="fas fa-clock text-warning"></i><span
+                    class="text-warning"> Timestamp</span>:11/5/2023 21:6:17</h6>
+        <hr/>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-4 col-md-4 pillspage badge badge-danger">
+        <div class="section">
+            <h6>Errors</h6>
+            <h1> 6</h1>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-4 pillspage badge badge-warning">
+        <div class="section">
+            <h6>Warnings</h6>
+            <h1> 20</h1>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-4 pillspage badge badge-info">
+        <div class="section ">
+            <h6>Notices</h6>
+            <h1> 81</h1>
+        </div>
+    </div>
+</div>    <br>
+    <h3 class="text-white text-center">Issues - Details</h3>
+
+    <nav>
+        <div class="nav nav-tabs" id="nav-tabissues" role="tablist">
+                <a class="nav-item nav-link text-danger show active"
+                   id="errors-tab" data-toggle="tab" href="#errors"
+                   role="tab" aria-controls="errors" aria-selected="true">Errors&nbsp;<span
+                            class="badge badge-danger"> 6</span></a>
+                <a class="nav-item nav-link text-warning "
+                   id="warnings-tab" data-toggle="tab" href="#warnings"
+                   role="tab" aria-controls="warnings" aria-selected="true">Warnings&nbsp;<span
+                            class="badge badge-warning"> 20</span></a>
+                <a class="nav-item nav-link text-info "
+                   id="notices-tab" data-toggle="tab" href="#notices"
+                   role="tab" aria-controls="notices" aria-selected="true">Notices&nbsp;<span
+                            class="badge badge-info"> 81</span></a>
+        </div>
+    </nav>
+    <div class="tab-content" id="nav-tabissuesContent">
+            <div class="tab-pane fade show active" id="errors" role="tabpanel"
+                 aria-labelledby="errors-tab">
+                <div class="card bg-danger">
+                        <div class="alert alert-danger btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle1.Guideline1_1.1_1_1.H30.2</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H30"
+                                           target="_blank" >H30</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-danger">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a href=&quot;https://atid.store/&quot; class=&quot;custom-logo-link transparent-custom-logo&quot; rel=&quot;home&quot; itemprop=&quot;url&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-danger btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle3.Guideline3_2.3_2_2.H32.2</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H32"
+                                           target="_blank" >H32</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-danger">form</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> This form does not contain a submit button, which creates issues for those who cannot submit the form using the keyboard. Submit buttons are INPUT elements with type attribute &quot;submit&quot; or &quot;image&quot;, or BUTTON elements with type &quot;submit&quot; or omitted/invalid.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;form role=&quot;search&quot; method=&quot;get&quot; class=&quot;search-form&quot; action=&quot;https://atid.store/&quot;&gt;...&lt;/form&gt;</div>
+                        </div>
+                        <div class="alert alert-danger btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle1.Guideline1_1.1_1_1.H30.2</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H30"
+                                           target="_blank" >H30</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-danger">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Img element is the only content of the link, but is missing alt text. The alt text should describe the purpose of the link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a href=&quot;https://atid.store/&quot; class=&quot;custom-logo-link transparent-custom-logo&quot; rel=&quot;home&quot; itemprop=&quot;url&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-danger btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle4.Guideline4_1.4_1_1.F77</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F77"
+                                           target="_blank" >F77</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-danger">nav</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Duplicate id attribute value &quot;primary-site-navigation&quot; found on the web page.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;nav class=&quot;site-navigation ast-flex-grow-1 navigation-accessibility site-header-focus-item&quot; id=&quot;primary-site-navigation&quot; aria-label=&quot;Site Navigation&quot; itemtype=&quot;https://schema.org/SiteNavigationElement&quot; itemscope=&quot;itemscope&quot;&gt;...&lt;/nav&gt;</div>
+                        </div>
+                        <div class="alert alert-danger btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle4.Guideline4_1.4_1_1.F77</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F77"
+                                           target="_blank" >F77</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-danger">ul</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Duplicate id attribute value &quot;ast-hf-menu-1&quot; found on the web page.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;ul id=&quot;ast-hf-menu-1&quot; class=&quot;main-header-menu ast-menu-shadow ast-nav-menu ast-flex  submenu-with-border astra-menu-animation-slide-up  ast-menu-hover-style-zoom  stack-on-mobile&quot;&gt;...&lt;/ul&gt;</div>
+                        </div>
+                        <div class="alert alert-danger btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle4.Guideline4_1.4_1_2.H91.Button.Name</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H91"
+                                           target="_blank" >H91</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-danger">button</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> This button element does not have a name available to an accessibility API. Valid names are: title undefined, element content, aria-label undefined, aria-labelledby undefined.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;button type=&quot;button&quot; class=&quot;astra-cart-drawer-close&quot;&gt;...&lt;/button&gt;</div>
+                        </div>
+                </div>
+            </div>
+            <div class="tab-pane fade " id="warnings" role="tabpanel"
+                 aria-labelledby="warnings-tab">
+                <div class="card bg-warning">
+                        <div class="alert alert-warning btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle1.Guideline1_1.1_1_1.H67.2</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H67"
+                                           target="_blank" >H67</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-warning">img</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Img element is marked so that it is ignored by Assistive Technology.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;img decoding=&quot;async&quot; width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://atid.store/wp-content/uploads/2022/01/slide-image-free-img-1024x576.jpg&quot; class=&quot;attachment-large size-large&quot; alt=&quot;&quot; loading=&quot;lazy&quot; srcset=&quot;https://atid.store/wp-content/uploads/2022/01/slide-image-free-img-1024x576.jpg 1024w, https://atid.store/wp-content/uploads/2022/01/slide-image-free-img-300x169.jpg 300w, https://atid.store/wp-content/uploads/2022/01/slide-image-free-img-768x432.jpg 768w, https://atid.store/wp-content/uploads/2022/01/slide-image-free-img-600x338.jpg 600w, https://atid.store/wp-content/uploads/2022/01/slide-image-free-img.jpg 1200w&quot; sizes=&quot;(max-width: 1024px) 100vw, 1024px&quot;&gt;</div>
+                        </div>
+                        <div class="alert alert-warning btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle1.Guideline1_3.1_3_1_A.G141</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G141"
+                                           target="_blank" >G141</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-warning">h4</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> The heading structure is not logically nested. This h4 element should be an h3 to be properly nested.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;h4 class=&quot;elementor-heading-title elementor-size-default&quot;&gt;...&lt;/h4&gt;</div>
+                        </div>
+                        <div class="alert alert-warning btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle1.Guideline1_1.1_1_1.H67.2</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H67"
+                                           target="_blank" >H67</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-warning">img</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Img element is marked so that it is ignored by Assistive Technology.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;img decoding=&quot;async&quot; width=&quot;150&quot; height=&quot;150&quot; src=&quot;https://atid.store/wp-content/uploads/2022/01/image_yoni.png&quot; class=&quot;attachment-full size-full&quot; alt=&quot;&quot; loading=&quot;lazy&quot;&gt;</div>
+                        </div>
+                        <div class="alert alert-warning btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle1.Guideline1_3.1_3_1_A.G141</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G141"
+                                           target="_blank" >G141</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-warning">h4</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> The heading structure is not logically nested. This h4 element should be an h3 to be properly nested.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;h4 class=&quot;elementor-image-box-title&quot;&gt;...&lt;/h4&gt;</div>
+                        </div>
+                        <div class="alert alert-warning btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle1.Guideline1_1.1_1_1.H67.2</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H67"
+                                           target="_blank" >H67</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-warning">img</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Img element is marked so that it is ignored by Assistive Technology.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;img decoding=&quot;async&quot; width=&quot;150&quot; height=&quot;150&quot; src=&quot;https://atid.store/wp-content/uploads/2022/01/image_albert.png&quot; class=&quot;attachment-full size-full&quot; alt=&quot;&quot; loading=&quot;lazy&quot;&gt;</div>
+                        </div>
+                        <div class="alert alert-warning btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle1.Guideline1_1.1_1_1.H67.2</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H67"
+                                           target="_blank" >H67</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-warning">img</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Img element is marked so that it is ignored by Assistive Technology.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;img decoding=&quot;async&quot; width=&quot;150&quot; height=&quot;150&quot; src=&quot;https://atid.store/wp-content/uploads/2022/01/image_steve.png&quot; class=&quot;attachment-full size-full&quot; alt=&quot;&quot; loading=&quot;lazy&quot;&gt;</div>
+                        </div>
+                        <div class="alert alert-warning btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle1.Guideline1_1.1_1_1.H67.2</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H67"
+                                           target="_blank" >H67</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-warning">img</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Img element is marked so that it is ignored by Assistive Technology.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;img decoding=&quot;async&quot; width=&quot;150&quot; height=&quot;150&quot; src=&quot;https://atid.store/wp-content/uploads/2022/01/image_bill_gates.png&quot; class=&quot;attachment-full size-full&quot; alt=&quot;&quot; loading=&quot;lazy&quot;&gt;</div>
+                        </div>
+                        <div class="alert alert-warning btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle1.Guideline1_1.1_1_1.H67.2</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H67"
+                                           target="_blank" >H67</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-warning">img</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Img element is marked so that it is ignored by Assistive Technology.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;img decoding=&quot;async&quot; width=&quot;150&quot; height=&quot;150&quot; src=&quot;https://atid.store/wp-content/uploads/2022/01/image_kim.png&quot; class=&quot;attachment-full size-full&quot; alt=&quot;&quot; loading=&quot;lazy&quot;&gt;</div>
+                        </div>
+                        <div class="alert alert-warning btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle1.Guideline1_1.1_1_1.H67.2</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H67"
+                                           target="_blank" >H67</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-warning">img</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Img element is marked so that it is ignored by Assistive Technology.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;img decoding=&quot;async&quot; width=&quot;150&quot; height=&quot;150&quot; src=&quot;https://atid.store/wp-content/uploads/2022/01/image_madonna.png&quot; class=&quot;attachment-full size-full&quot; alt=&quot;&quot; loading=&quot;lazy&quot;&gt;</div>
+                        </div>
+                        <div class="alert alert-warning btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle4.Guideline4_1.4_1_2.H91.A.Placeholder</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H91"
+                                           target="_blank" >H91</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-warning">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Anchor element found with link content, but no href, ID or name attribute has been supplied.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a class=&quot;elementor-icon elementor-social-icon elementor-social-icon-facebook-f elementor-repeater-item-9e740e1&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-warning btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle4.Guideline4_1.4_1_2.H91.A.Placeholder</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H91"
+                                           target="_blank" >H91</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-warning">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Anchor element found with link content, but no href, ID or name attribute has been supplied.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a class=&quot;elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-repeater-item-525c1b1&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-warning btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle4.Guideline4_1.4_1_2.H91.A.Placeholder</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H91"
+                                           target="_blank" >H91</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-warning">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Anchor element found with link content, but no href, ID or name attribute has been supplied.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a class=&quot;elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-65ca331&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-warning btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle4.Guideline4_1.4_1_2.H91.A.Placeholder</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H91"
+                                           target="_blank" >H91</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-warning">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Anchor element found with link content, but no href, ID or name attribute has been supplied.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a class=&quot;elementor-icon elementor-social-icon elementor-social-icon-google-plus-g elementor-repeater-item-347f36d&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-warning btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle1.Guideline1_1.1_1_1.H67.2</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H67"
+                                           target="_blank" >H67</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-warning">img</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Img element is marked so that it is ignored by Assistive Technology.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;img decoding=&quot;async&quot; width=&quot;120&quot; height=&quot;120&quot; src=&quot;https://atid.store/wp-content/uploads/2022/01/globe-free-img.png&quot; class=&quot;attachment-full size-full&quot; alt=&quot;&quot; loading=&quot;lazy&quot;&gt;</div>
+                        </div>
+                        <div class="alert alert-warning btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle1.Guideline1_3.1_3_1_A.G141</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G141"
+                                           target="_blank" >G141</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-warning">h5</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> The heading structure is not logically nested. This h5 element should be an h3 to be properly nested.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;h5 class=&quot;elementor-image-box-title&quot;&gt;...&lt;/h5&gt;</div>
+                        </div>
+                        <div class="alert alert-warning btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle1.Guideline1_1.1_1_1.H67.2</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H67"
+                                           target="_blank" >H67</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-warning">img</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Img element is marked so that it is ignored by Assistive Technology.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;img decoding=&quot;async&quot; width=&quot;120&quot; height=&quot;120&quot; src=&quot;https://atid.store/wp-content/uploads/2022/01/quality-free-img.png&quot; class=&quot;attachment-full size-full&quot; alt=&quot;&quot; loading=&quot;lazy&quot;&gt;</div>
+                        </div>
+                        <div class="alert alert-warning btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle1.Guideline1_1.1_1_1.H67.2</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H67"
+                                           target="_blank" >H67</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-warning">img</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Img element is marked so that it is ignored by Assistive Technology.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;img decoding=&quot;async&quot; width=&quot;120&quot; height=&quot;120&quot; src=&quot;https://atid.store/wp-content/uploads/2022/01/tag-free-img.png&quot; class=&quot;attachment-full size-full&quot; alt=&quot;&quot; loading=&quot;lazy&quot;&gt;</div>
+                        </div>
+                        <div class="alert alert-warning btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle1.Guideline1_1.1_1_1.H67.2</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H67"
+                                           target="_blank" >H67</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-warning">img</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Img element is marked so that it is ignored by Assistive Technology.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;img decoding=&quot;async&quot; width=&quot;120&quot; height=&quot;120&quot; src=&quot;https://atid.store/wp-content/uploads/2022/01/lock-free-img.png&quot; class=&quot;attachment-full size-full&quot; alt=&quot;&quot; loading=&quot;lazy&quot;&gt;</div>
+                        </div>
+                        <div class="alert alert-warning btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle1.Guideline1_1.1_1_1.H67.2</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H67"
+                                           target="_blank" >H67</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-warning">img</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Img element is marked so that it is ignored by Assistive Technology.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;img width=&quot;144&quot; height=&quot;44&quot; src=&quot;https://atid.store/wp-content/uploads/2021/06/appstore-img.png&quot; class=&quot;image wp-image-2818  attachment-full size-full&quot; alt=&quot;&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; style=&quot;max-width: 100%; height: auto;&quot;&gt;</div>
+                        </div>
+                        <div class="alert alert-warning btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle1.Guideline1_1.1_1_1.H67.2</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H67"
+                                           target="_blank" >H67</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-warning">img</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Img element is marked so that it is ignored by Assistive Technology.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;img width=&quot;144&quot; height=&quot;44&quot; src=&quot;https://atid.store/wp-content/uploads/2021/06/playstore-img.png&quot; class=&quot;image wp-image-2819  attachment-full size-full&quot; alt=&quot;&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; style=&quot;max-width: 100%; height: auto;&quot;&gt;</div>
+                        </div>
+                </div>
+            </div>
+            <div class="tab-pane fade " id="notices" role="tabpanel"
+                 aria-labelledby="notices-tab">
+                <div class="card bg-info">
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_2.H25.2</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H25"
+                                           target="_blank" >H25</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">title</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that the title element describes the document.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;title&gt;...&lt;/title&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H77"
+                                           target="_blank" >H77</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H78"
+                                           target="_blank" >H78</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H79"
+                                           target="_blank" >H79</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H80"
+                                           target="_blank" >H80</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H81"
+                                           target="_blank" >H81</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that the link text combined with programmatically determined link context identifies the purpose of the link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a id=&quot;pojo-a11y-skip-content&quot; class=&quot;pojo-skip-link pojo-skip-content&quot; tabindex=&quot;1&quot; accesskey=&quot;s&quot; href=&quot;#content&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81,H33</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H77"
+                                           target="_blank" >H77</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H33"
+                                           target="_blank" >H33</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H78"
+                                           target="_blank" >H78</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H79"
+                                           target="_blank" >H79</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H80"
+                                           target="_blank" >H80</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H81"
+                                           target="_blank" >H81</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that the link text combined with programmatically determined link context, or its title attribute, identifies the purpose of the link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a class=&quot;pojo-a11y-toolbar-link pojo-a11y-toolbar-toggle-link&quot; href=&quot;javascript:void(0);&quot; title=&quot;Accessibility Tools&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H77"
+                                           target="_blank" >H77</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H78"
+                                           target="_blank" >H78</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H79"
+                                           target="_blank" >H79</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H80"
+                                           target="_blank" >H80</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H81"
+                                           target="_blank" >H81</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that the link text combined with programmatically determined link context identifies the purpose of the link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a href=&quot;#&quot; class=&quot;pojo-a11y-toolbar-link pojo-a11y-btn-resize-font pojo-a11y-btn-resize-plus&quot; data-action=&quot;resize-plus&quot; data-action-group=&quot;resize&quot; tabindex=&quot;-1&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H77"
+                                           target="_blank" >H77</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H78"
+                                           target="_blank" >H78</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H79"
+                                           target="_blank" >H79</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H80"
+                                           target="_blank" >H80</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H81"
+                                           target="_blank" >H81</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that the link text combined with programmatically determined link context identifies the purpose of the link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a href=&quot;#&quot; class=&quot;pojo-a11y-toolbar-link pojo-a11y-btn-resize-font pojo-a11y-btn-resize-minus&quot; data-action=&quot;resize-minus&quot; data-action-group=&quot;resize&quot; tabindex=&quot;-1&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H77"
+                                           target="_blank" >H77</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H78"
+                                           target="_blank" >H78</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H79"
+                                           target="_blank" >H79</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H80"
+                                           target="_blank" >H80</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H81"
+                                           target="_blank" >H81</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that the link text combined with programmatically determined link context identifies the purpose of the link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a href=&quot;#&quot; class=&quot;pojo-a11y-toolbar-link pojo-a11y-btn-background-group pojo-a11y-btn-grayscale&quot; data-action=&quot;grayscale&quot; data-action-group=&quot;schema&quot; tabindex=&quot;-1&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H77"
+                                           target="_blank" >H77</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H78"
+                                           target="_blank" >H78</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H79"
+                                           target="_blank" >H79</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H80"
+                                           target="_blank" >H80</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H81"
+                                           target="_blank" >H81</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that the link text combined with programmatically determined link context identifies the purpose of the link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a href=&quot;#&quot; class=&quot;pojo-a11y-toolbar-link pojo-a11y-btn-background-group pojo-a11y-btn-high-contrast&quot; data-action=&quot;high-contrast&quot; data-action-group=&quot;schema&quot; tabindex=&quot;-1&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H77"
+                                           target="_blank" >H77</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H78"
+                                           target="_blank" >H78</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H79"
+                                           target="_blank" >H79</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H80"
+                                           target="_blank" >H80</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H81"
+                                           target="_blank" >H81</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that the link text combined with programmatically determined link context identifies the purpose of the link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a href=&quot;#&quot; class=&quot;pojo-a11y-toolbar-link pojo-a11y-btn-background-group pojo-a11y-btn-negative-contrast&quot; data-action=&quot;negative-contrast&quot; data-action-group=&quot;schema&quot; tabindex=&quot;-1&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H77"
+                                           target="_blank" >H77</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H78"
+                                           target="_blank" >H78</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H79"
+                                           target="_blank" >H79</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H80"
+                                           target="_blank" >H80</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H81"
+                                           target="_blank" >H81</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that the link text combined with programmatically determined link context identifies the purpose of the link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a href=&quot;#&quot; class=&quot;pojo-a11y-toolbar-link pojo-a11y-btn-background-group pojo-a11y-btn-light-background&quot; data-action=&quot;light-background&quot; data-action-group=&quot;schema&quot; tabindex=&quot;-1&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H77"
+                                           target="_blank" >H77</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H78"
+                                           target="_blank" >H78</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H79"
+                                           target="_blank" >H79</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H80"
+                                           target="_blank" >H80</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H81"
+                                           target="_blank" >H81</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that the link text combined with programmatically determined link context identifies the purpose of the link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a href=&quot;#&quot; class=&quot;pojo-a11y-toolbar-link pojo-a11y-btn-links-underline&quot; data-action=&quot;links-underline&quot; data-action-group=&quot;toggle&quot; tabindex=&quot;-1&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H77"
+                                           target="_blank" >H77</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H78"
+                                           target="_blank" >H78</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H79"
+                                           target="_blank" >H79</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H80"
+                                           target="_blank" >H80</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H81"
+                                           target="_blank" >H81</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that the link text combined with programmatically determined link context identifies the purpose of the link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a href=&quot;#&quot; class=&quot;pojo-a11y-toolbar-link pojo-a11y-btn-readable-font&quot; data-action=&quot;readable-font&quot; data-action-group=&quot;toggle&quot; tabindex=&quot;-1&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H77"
+                                           target="_blank" >H77</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H78"
+                                           target="_blank" >H78</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H79"
+                                           target="_blank" >H79</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H80"
+                                           target="_blank" >H80</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H81"
+                                           target="_blank" >H81</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that the link text combined with programmatically determined link context identifies the purpose of the link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a href=&quot;#&quot; class=&quot;pojo-a11y-toolbar-link pojo-a11y-btn-reset&quot; data-action=&quot;reset&quot; tabindex=&quot;-1&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81,H33</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H77"
+                                           target="_blank" >H77</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H33"
+                                           target="_blank" >H33</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H78"
+                                           target="_blank" >H78</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H79"
+                                           target="_blank" >H79</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H80"
+                                           target="_blank" >H80</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H81"
+                                           target="_blank" >H81</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that the link text combined with programmatically determined link context, or its title attribute, identifies the purpose of the link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a class=&quot;skip-link screen-reader-text&quot; href=&quot;#content&quot; role=&quot;link&quot; title=&quot;Skip to content&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H77"
+                                           target="_blank" >H77</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H78"
+                                           target="_blank" >H78</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H79"
+                                           target="_blank" >H79</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H80"
+                                           target="_blank" >H80</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H81"
+                                           target="_blank" >H81</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that the link text combined with programmatically determined link context identifies the purpose of the link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a href=&quot;https://atid.store/&quot; class=&quot;custom-logo-link transparent-custom-logo&quot; rel=&quot;home&quot; itemprop=&quot;url&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle1.Guideline1_1.1_1_1.G73,G74</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G74"
+                                           target="_blank" >G74</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G73"
+                                           target="_blank" >G73</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">img</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;img width=&quot;160&quot; height=&quot;63&quot; src=&quot;https://atid.store/wp-content/uploads/2022/01/logo_store_bright-160x63.png&quot; class=&quot;custom-logo&quot; alt=&quot;&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; srcset=&quot;https://atid.store/wp-content/uploads/2022/01/logo_store_bright-160x63.png 160w, https://atid.store/wp-content/uploads/2022/01/logo_store_bright-300x118.png 300w, https://atid.store/wp-content/uploads/2022/01/logo_store_bright.png 571w&quot; sizes=&quot;(max-width: 160px) 100vw, 160px&quot;&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H77"
+                                           target="_blank" >H77</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H78"
+                                           target="_blank" >H78</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H79"
+                                           target="_blank" >H79</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H80"
+                                           target="_blank" >H80</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H81"
+                                           target="_blank" >H81</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that the link text combined with programmatically determined link context identifies the purpose of the link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a href=&quot;https://atid.store/&quot; class=&quot;menu-link&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H77"
+                                           target="_blank" >H77</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H78"
+                                           target="_blank" >H78</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H79"
+                                           target="_blank" >H79</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H80"
+                                           target="_blank" >H80</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H81"
+                                           target="_blank" >H81</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that the link text combined with programmatically determined link context identifies the purpose of the link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a href=&quot;https://atid.store/store/&quot; class=&quot;menu-link&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H77"
+                                           target="_blank" >H77</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H78"
+                                           target="_blank" >H78</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H79"
+                                           target="_blank" >H79</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H80"
+                                           target="_blank" >H80</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H81"
+                                           target="_blank" >H81</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that the link text combined with programmatically determined link context identifies the purpose of the link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a href=&quot;https://atid.store/product-category/men/&quot; class=&quot;menu-link&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H77"
+                                           target="_blank" >H77</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H78"
+                                           target="_blank" >H78</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H79"
+                                           target="_blank" >H79</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H80"
+                                           target="_blank" >H80</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H81"
+                                           target="_blank" >H81</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that the link text combined with programmatically determined link context identifies the purpose of the link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a href=&quot;https://atid.store/product-category/women/&quot; class=&quot;menu-link&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H77"
+                                           target="_blank" >H77</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H78"
+                                           target="_blank" >H78</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H79"
+                                           target="_blank" >H79</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H80"
+                                           target="_blank" >H80</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H81"
+                                           target="_blank" >H81</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that the link text combined with programmatically determined link context identifies the purpose of the link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a href=&quot;https://atid.store/product-category/accessories/&quot; class=&quot;menu-link&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H77"
+                                           target="_blank" >H77</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H78"
+                                           target="_blank" >H78</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H79"
+                                           target="_blank" >H79</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H80"
+                                           target="_blank" >H80</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H81"
+                                           target="_blank" >H81</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that the link text combined with programmatically determined link context identifies the purpose of the link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a href=&quot;https://atid.store/about/&quot; aria-current=&quot;page&quot; class=&quot;menu-link&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H77"
+                                           target="_blank" >H77</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H78"
+                                           target="_blank" >H78</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H79"
+                                           target="_blank" >H79</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H80"
+                                           target="_blank" >H80</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H81"
+                                           target="_blank" >H81</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that the link text combined with programmatically determined link context identifies the purpose of the link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a href=&quot;https://atid.store/contact-us/&quot; class=&quot;menu-link&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H77"
+                                           target="_blank" >H77</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H78"
+                                           target="_blank" >H78</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H79"
+                                           target="_blank" >H79</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H80"
+                                           target="_blank" >H80</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H81"
+                                           target="_blank" >H81</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that the link text combined with programmatically determined link context identifies the purpose of the link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a class=&quot;slide-search astra-search-icon&quot; aria-label=&quot;Search icon link&quot; href=&quot;#&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle3.Guideline3_3.3_3_1.G83,G84,G85</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G85"
+                                           target="_blank" >G85</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G84"
+                                           target="_blank" >G84</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G83"
+                                           target="_blank" >G83</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">form</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> If an input error is automatically detected in this form, check that the item(s) in error are identified and the error(s) are described to the user in text.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;form role=&quot;search&quot; method=&quot;get&quot; class=&quot;search-form&quot; action=&quot;https://atid.store/&quot;&gt;...&lt;/form&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle3.Guideline3_3.3_3_2.G131,G89,G184,H90</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G89"
+                                           target="_blank" >G89</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G131"
+                                           target="_blank" >G131</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H90"
+                                           target="_blank" >H90</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G184"
+                                           target="_blank" >G184</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">form</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that descriptive labels or instructions (including for required fields) are provided for user input in this form.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;form role=&quot;search&quot; method=&quot;get&quot; class=&quot;search-form&quot; action=&quot;https://atid.store/&quot;&gt;...&lt;/form&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle3.Guideline3_2.3_2_1.G107</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G107"
+                                           target="_blank" >G107</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">input</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that a change of context does not occur when this input field receives focus.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;input type=&quot;search&quot; class=&quot;search-field&quot; placeholder=&quot;Search …&quot; value=&quot;&quot; name=&quot;s&quot; tabindex=&quot;-1&quot;&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81,H33</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H77"
+                                           target="_blank" >H77</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H33"
+                                           target="_blank" >H33</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H78"
+                                           target="_blank" >H78</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H79"
+                                           target="_blank" >H79</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H80"
+                                           target="_blank" >H80</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H81"
+                                           target="_blank" >H81</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that the link text combined with programmatically determined link context, or its title attribute, identifies the purpose of the link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a class=&quot;cart-container&quot; href=&quot;https://atid.store/cart-2/&quot; title=&quot;View your shopping cart&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H77"
+                                           target="_blank" >H77</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H78"
+                                           target="_blank" >H78</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H79"
+                                           target="_blank" >H79</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H80"
+                                           target="_blank" >H80</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H81"
+                                           target="_blank" >H81</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that the link text combined with programmatically determined link context identifies the purpose of the link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a href=&quot;https://atid.store/&quot; class=&quot;custom-logo-link transparent-custom-logo&quot; rel=&quot;home&quot; itemprop=&quot;url&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle1.Guideline1_1.1_1_1.G73,G74</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G74"
+                                           target="_blank" >G74</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G73"
+                                           target="_blank" >G73</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">img</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;img width=&quot;160&quot; height=&quot;63&quot; src=&quot;https://atid.store/wp-content/uploads/2022/01/logo_store_bright-160x63.png&quot; class=&quot;custom-logo&quot; alt=&quot;&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; srcset=&quot;https://atid.store/wp-content/uploads/2022/01/logo_store_bright-160x63.png 160w, https://atid.store/wp-content/uploads/2022/01/logo_store_bright-300x118.png 300w, https://atid.store/wp-content/uploads/2022/01/logo_store_bright.png 571w&quot; sizes=&quot;(max-width: 160px) 100vw, 160px&quot;&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle3.Guideline3_2.3_2_1.G107</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G107"
+                                           target="_blank" >G107</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">button</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that a change of context does not occur when this input field receives focus.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;button type=&quot;button&quot; class=&quot;menu-toggle main-header-menu-toggle ast-mobile-menu-trigger-outline&quot; aria-expanded=&quot;false&quot; data-index=&quot;0&quot;&gt;...&lt;/button&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H77"
+                                           target="_blank" >H77</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H78"
+                                           target="_blank" >H78</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H79"
+                                           target="_blank" >H79</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H80"
+                                           target="_blank" >H80</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H81"
+                                           target="_blank" >H81</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that the link text combined with programmatically determined link context identifies the purpose of the link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a href=&quot;https://atid.store/&quot; class=&quot;menu-link&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H77"
+                                           target="_blank" >H77</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H78"
+                                           target="_blank" >H78</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H79"
+                                           target="_blank" >H79</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H80"
+                                           target="_blank" >H80</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H81"
+                                           target="_blank" >H81</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that the link text combined with programmatically determined link context identifies the purpose of the link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a href=&quot;https://atid.store/store/&quot; class=&quot;menu-link&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H77"
+                                           target="_blank" >H77</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H78"
+                                           target="_blank" >H78</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H79"
+                                           target="_blank" >H79</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H80"
+                                           target="_blank" >H80</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H81"
+                                           target="_blank" >H81</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that the link text combined with programmatically determined link context identifies the purpose of the link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a href=&quot;https://atid.store/product-category/men/&quot; class=&quot;menu-link&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H77"
+                                           target="_blank" >H77</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H78"
+                                           target="_blank" >H78</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H79"
+                                           target="_blank" >H79</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H80"
+                                           target="_blank" >H80</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H81"
+                                           target="_blank" >H81</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that the link text combined with programmatically determined link context identifies the purpose of the link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a href=&quot;https://atid.store/product-category/women/&quot; class=&quot;menu-link&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H77"
+                                           target="_blank" >H77</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H78"
+                                           target="_blank" >H78</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H79"
+                                           target="_blank" >H79</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H80"
+                                           target="_blank" >H80</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H81"
+                                           target="_blank" >H81</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that the link text combined with programmatically determined link context identifies the purpose of the link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a href=&quot;https://atid.store/product-category/accessories/&quot; class=&quot;menu-link&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H77"
+                                           target="_blank" >H77</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H78"
+                                           target="_blank" >H78</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H79"
+                                           target="_blank" >H79</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H80"
+                                           target="_blank" >H80</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H81"
+                                           target="_blank" >H81</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that the link text combined with programmatically determined link context identifies the purpose of the link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a href=&quot;https://atid.store/about/&quot; aria-current=&quot;page&quot; class=&quot;menu-link&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H77"
+                                           target="_blank" >H77</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H78"
+                                           target="_blank" >H78</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H79"
+                                           target="_blank" >H79</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H80"
+                                           target="_blank" >H80</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H81"
+                                           target="_blank" >H81</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that the link text combined with programmatically determined link context identifies the purpose of the link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a href=&quot;https://atid.store/contact-us/&quot; class=&quot;menu-link&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle1.Guideline1_1.1_1_1.G73,G74</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G74"
+                                           target="_blank" >G74</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G73"
+                                           target="_blank" >G73</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">img</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;img decoding=&quot;async&quot; width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://atid.store/wp-content/uploads/2022/01/slide-image-free-img-1024x576.jpg&quot; class=&quot;attachment-large size-large&quot; alt=&quot;&quot; loading=&quot;lazy&quot; srcset=&quot;https://atid.store/wp-content/uploads/2022/01/slide-image-free-img-1024x576.jpg 1024w, https://atid.store/wp-content/uploads/2022/01/slide-image-free-img-300x169.jpg 300w, https://atid.store/wp-content/uploads/2022/01/slide-image-free-img-768x432.jpg 768w, https://atid.store/wp-content/uploads/2022/01/slide-image-free-img-600x338.jpg 600w, https://atid.store/wp-content/uploads/2022/01/slide-image-free-img.jpg 1200w&quot; sizes=&quot;(max-width: 1024px) 100vw, 1024px&quot;&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle1.Guideline1_1.1_1_1.G73,G74</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G74"
+                                           target="_blank" >G74</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G73"
+                                           target="_blank" >G73</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">img</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;img decoding=&quot;async&quot; width=&quot;150&quot; height=&quot;150&quot; src=&quot;https://atid.store/wp-content/uploads/2022/01/image_yoni.png&quot; class=&quot;attachment-full size-full&quot; alt=&quot;&quot; loading=&quot;lazy&quot;&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle1.Guideline1_1.1_1_1.G73,G74</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G74"
+                                           target="_blank" >G74</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G73"
+                                           target="_blank" >G73</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">img</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;img decoding=&quot;async&quot; width=&quot;150&quot; height=&quot;150&quot; src=&quot;https://atid.store/wp-content/uploads/2022/01/image_albert.png&quot; class=&quot;attachment-full size-full&quot; alt=&quot;&quot; loading=&quot;lazy&quot;&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle1.Guideline1_1.1_1_1.G73,G74</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G74"
+                                           target="_blank" >G74</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G73"
+                                           target="_blank" >G73</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">img</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;img decoding=&quot;async&quot; width=&quot;150&quot; height=&quot;150&quot; src=&quot;https://atid.store/wp-content/uploads/2022/01/image_steve.png&quot; class=&quot;attachment-full size-full&quot; alt=&quot;&quot; loading=&quot;lazy&quot;&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle1.Guideline1_1.1_1_1.G73,G74</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G74"
+                                           target="_blank" >G74</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G73"
+                                           target="_blank" >G73</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">img</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;img decoding=&quot;async&quot; width=&quot;150&quot; height=&quot;150&quot; src=&quot;https://atid.store/wp-content/uploads/2022/01/image_bill_gates.png&quot; class=&quot;attachment-full size-full&quot; alt=&quot;&quot; loading=&quot;lazy&quot;&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle1.Guideline1_1.1_1_1.G73,G74</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G74"
+                                           target="_blank" >G74</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G73"
+                                           target="_blank" >G73</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">img</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;img decoding=&quot;async&quot; width=&quot;150&quot; height=&quot;150&quot; src=&quot;https://atid.store/wp-content/uploads/2022/01/image_kim.png&quot; class=&quot;attachment-full size-full&quot; alt=&quot;&quot; loading=&quot;lazy&quot;&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle1.Guideline1_1.1_1_1.G73,G74</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G74"
+                                           target="_blank" >G74</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G73"
+                                           target="_blank" >G73</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">img</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;img decoding=&quot;async&quot; width=&quot;150&quot; height=&quot;150&quot; src=&quot;https://atid.store/wp-content/uploads/2022/01/image_madonna.png&quot; class=&quot;attachment-full size-full&quot; alt=&quot;&quot; loading=&quot;lazy&quot;&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H77"
+                                           target="_blank" >H77</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H78"
+                                           target="_blank" >H78</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H79"
+                                           target="_blank" >H79</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H80"
+                                           target="_blank" >H80</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H81"
+                                           target="_blank" >H81</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that the link text combined with programmatically determined link context identifies the purpose of the link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a class=&quot;elementor-icon elementor-social-icon elementor-social-icon-facebook-f elementor-repeater-item-9e740e1&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H77"
+                                           target="_blank" >H77</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H78"
+                                           target="_blank" >H78</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H79"
+                                           target="_blank" >H79</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H80"
+                                           target="_blank" >H80</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H81"
+                                           target="_blank" >H81</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that the link text combined with programmatically determined link context identifies the purpose of the link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a class=&quot;elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-repeater-item-525c1b1&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H77"
+                                           target="_blank" >H77</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H78"
+                                           target="_blank" >H78</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H79"
+                                           target="_blank" >H79</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H80"
+                                           target="_blank" >H80</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H81"
+                                           target="_blank" >H81</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that the link text combined with programmatically determined link context identifies the purpose of the link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a class=&quot;elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-65ca331&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H77"
+                                           target="_blank" >H77</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H78"
+                                           target="_blank" >H78</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H79"
+                                           target="_blank" >H79</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H80"
+                                           target="_blank" >H80</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H81"
+                                           target="_blank" >H81</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that the link text combined with programmatically determined link context identifies the purpose of the link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a class=&quot;elementor-icon elementor-social-icon elementor-social-icon-google-plus-g elementor-repeater-item-347f36d&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle1.Guideline1_1.1_1_1.G73,G74</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G74"
+                                           target="_blank" >G74</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G73"
+                                           target="_blank" >G73</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">img</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;img decoding=&quot;async&quot; width=&quot;120&quot; height=&quot;120&quot; src=&quot;https://atid.store/wp-content/uploads/2022/01/globe-free-img.png&quot; class=&quot;attachment-full size-full&quot; alt=&quot;&quot; loading=&quot;lazy&quot;&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle1.Guideline1_1.1_1_1.G73,G74</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G74"
+                                           target="_blank" >G74</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G73"
+                                           target="_blank" >G73</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">img</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;img decoding=&quot;async&quot; width=&quot;120&quot; height=&quot;120&quot; src=&quot;https://atid.store/wp-content/uploads/2022/01/quality-free-img.png&quot; class=&quot;attachment-full size-full&quot; alt=&quot;&quot; loading=&quot;lazy&quot;&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle1.Guideline1_1.1_1_1.G73,G74</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G74"
+                                           target="_blank" >G74</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G73"
+                                           target="_blank" >G73</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">img</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;img decoding=&quot;async&quot; width=&quot;120&quot; height=&quot;120&quot; src=&quot;https://atid.store/wp-content/uploads/2022/01/tag-free-img.png&quot; class=&quot;attachment-full size-full&quot; alt=&quot;&quot; loading=&quot;lazy&quot;&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle1.Guideline1_1.1_1_1.G73,G74</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G74"
+                                           target="_blank" >G74</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G73"
+                                           target="_blank" >G73</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">img</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;img decoding=&quot;async&quot; width=&quot;120&quot; height=&quot;120&quot; src=&quot;https://atid.store/wp-content/uploads/2022/01/lock-free-img.png&quot; class=&quot;attachment-full size-full&quot; alt=&quot;&quot; loading=&quot;lazy&quot;&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle3.Guideline3_2.3_2_1.G107</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G107"
+                                           target="_blank" >G107</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">button</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that a change of context does not occur when this input field receives focus.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;button type=&quot;button&quot; class=&quot;astra-cart-drawer-close&quot;&gt;...&lt;/button&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H77"
+                                           target="_blank" >H77</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H78"
+                                           target="_blank" >H78</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H79"
+                                           target="_blank" >H79</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H80"
+                                           target="_blank" >H80</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H81"
+                                           target="_blank" >H81</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that the link text combined with programmatically determined link context identifies the purpose of the link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a href=&quot;https://atid.store/&quot; class=&quot;menu-link&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H77"
+                                           target="_blank" >H77</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H78"
+                                           target="_blank" >H78</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H79"
+                                           target="_blank" >H79</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H80"
+                                           target="_blank" >H80</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H81"
+                                           target="_blank" >H81</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that the link text combined with programmatically determined link context identifies the purpose of the link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a href=&quot;https://atid.store/about/&quot; aria-current=&quot;page&quot; class=&quot;menu-link&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H77"
+                                           target="_blank" >H77</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H78"
+                                           target="_blank" >H78</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H79"
+                                           target="_blank" >H79</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H80"
+                                           target="_blank" >H80</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H81"
+                                           target="_blank" >H81</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that the link text combined with programmatically determined link context identifies the purpose of the link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a href=&quot;https://atid.store/cart-2/&quot; class=&quot;menu-link&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H77"
+                                           target="_blank" >H77</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H78"
+                                           target="_blank" >H78</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H79"
+                                           target="_blank" >H79</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H80"
+                                           target="_blank" >H80</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H81"
+                                           target="_blank" >H81</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that the link text combined with programmatically determined link context identifies the purpose of the link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a href=&quot;https://atid.store/contact-us/&quot; class=&quot;menu-link&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H77"
+                                           target="_blank" >H77</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H78"
+                                           target="_blank" >H78</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H79"
+                                           target="_blank" >H79</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H80"
+                                           target="_blank" >H80</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H81"
+                                           target="_blank" >H81</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that the link text combined with programmatically determined link context identifies the purpose of the link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a href=&quot;#&quot; class=&quot;menu-link&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H77"
+                                           target="_blank" >H77</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H78"
+                                           target="_blank" >H78</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H79"
+                                           target="_blank" >H79</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H80"
+                                           target="_blank" >H80</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H81"
+                                           target="_blank" >H81</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that the link text combined with programmatically determined link context identifies the purpose of the link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a href=&quot;#&quot; class=&quot;menu-link&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H77"
+                                           target="_blank" >H77</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H78"
+                                           target="_blank" >H78</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H79"
+                                           target="_blank" >H79</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H80"
+                                           target="_blank" >H80</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H81"
+                                           target="_blank" >H81</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that the link text combined with programmatically determined link context identifies the purpose of the link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a href=&quot;#&quot; class=&quot;menu-link&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H77"
+                                           target="_blank" >H77</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H78"
+                                           target="_blank" >H78</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H79"
+                                           target="_blank" >H79</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H80"
+                                           target="_blank" >H80</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H81"
+                                           target="_blank" >H81</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that the link text combined with programmatically determined link context identifies the purpose of the link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a href=&quot;#&quot; class=&quot;menu-link&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H77"
+                                           target="_blank" >H77</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H78"
+                                           target="_blank" >H78</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H79"
+                                           target="_blank" >H79</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H80"
+                                           target="_blank" >H80</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H81"
+                                           target="_blank" >H81</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that the link text combined with programmatically determined link context identifies the purpose of the link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a href=&quot;#&quot; class=&quot;menu-link&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H77"
+                                           target="_blank" >H77</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H78"
+                                           target="_blank" >H78</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H79"
+                                           target="_blank" >H79</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H80"
+                                           target="_blank" >H80</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H81"
+                                           target="_blank" >H81</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that the link text combined with programmatically determined link context identifies the purpose of the link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a href=&quot;#&quot; class=&quot;menu-link&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H77"
+                                           target="_blank" >H77</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H78"
+                                           target="_blank" >H78</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H79"
+                                           target="_blank" >H79</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H80"
+                                           target="_blank" >H80</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H81"
+                                           target="_blank" >H81</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that the link text combined with programmatically determined link context identifies the purpose of the link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a href=&quot;#&quot; class=&quot;menu-link&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H77"
+                                           target="_blank" >H77</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H78"
+                                           target="_blank" >H78</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H79"
+                                           target="_blank" >H79</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H80"
+                                           target="_blank" >H80</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H81"
+                                           target="_blank" >H81</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that the link text combined with programmatically determined link context identifies the purpose of the link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a href=&quot;#&quot; class=&quot;menu-link&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H77"
+                                           target="_blank" >H77</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H78"
+                                           target="_blank" >H78</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H79"
+                                           target="_blank" >H79</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H80"
+                                           target="_blank" >H80</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H81"
+                                           target="_blank" >H81</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that the link text combined with programmatically determined link context identifies the purpose of the link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a href=&quot;#&quot; class=&quot;menu-link&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_4.H77,H78,H79,H80,H81</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H77"
+                                           target="_blank" >H77</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H78"
+                                           target="_blank" >H78</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H79"
+                                           target="_blank" >H79</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H80"
+                                           target="_blank" >H80</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H81"
+                                           target="_blank" >H81</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">a</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that the link text combined with programmatically determined link context identifies the purpose of the link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;a href=&quot;#&quot; class=&quot;menu-link&quot;&gt;...&lt;/a&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle1.Guideline1_1.1_1_1.G73,G74</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G74"
+                                           target="_blank" >G74</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G73"
+                                           target="_blank" >G73</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">img</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;img width=&quot;144&quot; height=&quot;44&quot; src=&quot;https://atid.store/wp-content/uploads/2021/06/appstore-img.png&quot; class=&quot;image wp-image-2818  attachment-full size-full&quot; alt=&quot;&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; style=&quot;max-width: 100%; height: auto;&quot;&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle1.Guideline1_1.1_1_1.G73,G74</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G74"
+                                           target="_blank" >G74</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G73"
+                                           target="_blank" >G73</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">img</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.</div>
+                                <hr/>
+                                <div><strong>Element : </strong>&lt;img width=&quot;144&quot; height=&quot;44&quot; src=&quot;https://atid.store/wp-content/uploads/2021/06/playstore-img.png&quot; class=&quot;image wp-image-2819  attachment-full size-full&quot; alt=&quot;&quot; decoding=&quot;async&quot; loading=&quot;lazy&quot; style=&quot;max-width: 100%; height: auto;&quot;&gt;</div>
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle1.Guideline1_3.1_3_2.G57</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G57"
+                                           target="_blank" >G57</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">#document</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that the content is ordered in a meaningful sequence when linearised, such as when style sheets are disabled.</div>
+
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle1.Guideline1_3.1_3_3.G96</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G96"
+                                           target="_blank" >G96</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">#document</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Where instructions are provided for understanding the content, do not rely on sensory characteristics alone (such as shape, size or location) to describe objects.</div>
+
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle1.Guideline1_4.1_4_1.G14,G182</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G14"
+                                           target="_blank" >G14</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G182"
+                                           target="_blank" >G182</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">#document</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that any information conveyed using colour alone is also available in text, or through other visual cues.</div>
+
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_1.2_1_4.</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">#document</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that if a keyboard shortcut is implemented in content using only letter (including upper- and lower-case letters), punctuation, number, or symbol characters, then at least one of the following is true:              Turn off: A mechanism is available to turn the shortcut off;         Remap: A mechanism is available to remap the shortcut to use one or more non-printable keyboard characters (e.g. Ctrl, Alt, etc);         Active only on focus: The keyboard shortcut for a user interface component is only active when that component has focus.     </div>
+
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_2.2_2_2.SCR33,SCR22,G187,G152,G186,G191</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR33"
+                                           target="_blank" >SCR33</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR22"
+                                           target="_blank" >SCR22</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G191"
+                                           target="_blank" >G191</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G186"
+                                           target="_blank" >G186</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G187"
+                                           target="_blank" >G187</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G152"
+                                           target="_blank" >G152</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">#document</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> If any part of the content moves, scrolls or blinks for more than 5 seconds, or auto-updates, check that there is a mechanism available to pause, stop, or hide the content.</div>
+
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_3.2_3_1.G19,G176</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G176"
+                                           target="_blank" >G176</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G19"
+                                           target="_blank" >G19</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">#document</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that no component of the content flashes more than three times in any 1-second period, or that the size of any flashing area is sufficiently small.</div>
+
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_1.G1,G123,G124,H69</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G1"
+                                           target="_blank" >G1</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G124"
+                                           target="_blank" >G124</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H69"
+                                           target="_blank" >H69</a>,
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G123"
+                                           target="_blank" >G123</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">#document</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Ensure that any common navigation elements can be bypassed; for instance, by use of skip links, header elements, or ARIA landmark roles.</div>
+
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_4.2_4_3.H4.2</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/html/H4"
+                                           target="_blank" >H4</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">#document</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> If tabindex is used, check that the tab order specified by the tabindex attributes follows relationships in the content.</div>
+
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_5.2_5_1.</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">#document</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that all functionality that uses multipoint or path-based gestures for operation can be operated with a single pointer without a path-based gesture, unless a multipoint or path-based gesture is essential.</div>
+
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_5.2_5_2.</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">#document</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that for functionality that can be operated using a single pointer, at least one of the following is true:         No Down-Event: The down-event of the pointer is not used to execute any part of the function;         Abort or Undo: Completion of the function is on the up-event, and a mechanism is available to abort the function before completion or to undo the function after completion;         Up Reversal: The up-event reverses any outcome of the preceding down-event;         Essential: Completing the function on the down-event is essential.</div>
+
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_5.2_5_3.F96</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                        <a href="https://www.w3.org/WAI/WCAG21/Techniques/failures/F96"
+                                           target="_blank" >F96</a>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">#document</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that for user interface components with labels that include text or images of text, the name contains the text that is presented visually.</div>
+
+                        </div>
+                        <div class="alert alert-info btncollapse" role="alert">
+                            <div><strong>Code(s) : </strong>WCAG2A.Principle2.Guideline2_5.2_5_4.</div>
+                            <hr/>
+                                <div><strong>Technique(s) : </strong>
+                                </div>
+                            <hr/>
+                            <div><strong>Tag : </strong> <span
+                                        class="badge badge-pill badge-info">#document</span></div>
+                            <hr/>
+                            <div><strong>Message : </strong> Check that functionality that can be operated by device motion or user motion can also be operated by user interface components and responding to the motion can be disabled to prevent accidental actuation, except when:              Supported Interface: The motion is used to operate functionality through an accessibility supported interface;         Essential: The motion is essential for the function and doing so would invalidate the activity.     </div>
+
+                        </div>
+                </div>
+            </div>
+    </div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="footer"></div>
+    </div>
+</div></div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.min.js"></script>
+</body>
+</html>

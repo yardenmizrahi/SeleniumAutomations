@@ -104,7 +104,7 @@ public class updateCart {
             //go to cart
             logger.debug("go to cart");
             CartPage cartPage = new CartPage(driver);
-            cartPage.clickOnCart();
+            cartPage.clickOnLowerCart();
             //go to quantity
             logger.debug("go to quantity");
             WebElement quantityElement = cartPage.getQuantityOfTheSameProductInCart();
@@ -149,7 +149,7 @@ public class updateCart {
             //go to cart
             logger.debug("go to cart");
             CartPage cartPage = new CartPage(driver);
-            cartPage.clickOnCart();
+            cartPage.clickOnLowerCart();
             //go to quantity
             logger.debug("go to quantity");
             WebElement quantityElement = cartPage.getQuantityOfTheSameProductInCart();
