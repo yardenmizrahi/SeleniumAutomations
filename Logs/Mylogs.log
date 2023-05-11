@@ -489,3 +489,129 @@
 [DEBUG] 2023-05-11 18:53:34.591 [main] addToCart - get product name
 [DEBUG] 2023-05-11 18:53:34.592 [main] addToCart - check product added to cart
 [DEBUG] 2023-05-11 18:53:35.728 [main] addToCart - test pass
+[INFO ] 2023-05-11 20:12:15.473 [main] addToCart - opening webiste
+[DEBUG] 2023-05-11 20:12:19.875 [main] addToCart - go to store
+[DEBUG] 2023-05-11 20:12:20.490 [main] addToCart - go to product
+[DEBUG] 2023-05-11 20:12:20.904 [main] addToCart - add product to cart twice
+[DEBUG] 2023-05-11 20:12:22.273 [main] addToCart - go to cart
+[DEBUG] 2023-05-11 20:12:23.113 [main] addToCart - Get the value of the quantity element
+[DEBUG] 2023-05-11 20:12:23.143 [main] addToCart - test pass
+[INFO ] 2023-05-11 20:12:24.846 [main] addToCart - opening webiste
+[DEBUG] 2023-05-11 20:12:26.863 [main] addToCart - go to store
+[DEBUG] 2023-05-11 20:12:27.455 [main] addToCart - go to out-of-stock product
+[DEBUG] 2023-05-11 20:12:27.558 [main] addToCart - test pass
+[INFO ] 2023-05-11 20:12:28.882 [main] addToCart - opening webiste
+[DEBUG] 2023-05-11 20:12:31.466 [main] addToCart - go to store
+[DEBUG] 2023-05-11 20:12:32.252 [main] addToCart - click on product
+[DEBUG] 2023-05-11 20:12:33.238 [main] addToCart - add product to cart
+[DEBUG] 2023-05-11 20:12:33.285 [main] addToCart - get product name
+[DEBUG] 2023-05-11 20:12:33.286 [main] addToCart - check product added to cart
+[DEBUG] 2023-05-11 20:12:34.399 [main] addToCart - test pass
+[INFO ] 2023-05-11 20:13:25.326 [main] filtersInStore - opening webiste
+[DEBUG] 2023-05-11 20:13:26.687 [main] filtersInStore - go to store
+[DEBUG] 2023-05-11 20:13:27.060 [main] filtersInStore - select sorting method - low to high
+[DEBUG] 2023-05-11 20:13:27.336 [main] filtersInStore - locate the cheapest item
+[INFO ] 2023-05-11 20:13:29.276 [main] filtersInStore - opening webiste
+[DEBUG] 2023-05-11 20:13:30.739 [main] filtersInStore - go to store
+[DEBUG] 2023-05-11 20:13:31.303 [main] filtersInStore - search for all items
+[DEBUG] 2023-05-11 20:13:31.507 [main] filtersInStore - click enter
+[DEBUG] 2023-05-11 20:13:32.879 [main] filtersInStore - go to store
+[DEBUG] 2023-05-11 20:13:33.379 [main] filtersInStore - search for all items
+[DEBUG] 2023-05-11 20:13:33.493 [main] filtersInStore - click enter
+[INFO ] 2023-05-11 20:13:35.605 [main] filtersInStore - opening webiste
+[DEBUG] 2023-05-11 20:13:37.321 [main] filtersInStore - go to store
+[DEBUG] 2023-05-11 20:13:38.134 [main] filtersInStore - select accessories category
+[DEBUG] 2023-05-11 20:13:38.652 [main] filtersInStore - check if it gets to the right page
+[INFO ] 2023-05-11 20:14:05.167 [main] linksInAbout - opening webiste
+[DEBUG] 2023-05-11 20:14:06.603 [main] linksInAbout - go to about section
+[DEBUG] 2023-05-11 20:14:07.283 [main] linksInAbout - press on Women Jeans link under the tab "For Her" in the lower menu in About
+[INFO ] 2023-05-11 20:14:09.770 [main] linksInAbout - opening webiste
+[DEBUG] 2023-05-11 20:14:11.507 [main] linksInAbout - go to about section
+[DEBUG] 2023-05-11 20:14:12.164 [main] linksInAbout - press on Men Jackets link under the tab "For Him" in the lower menu in About
+[INFO ] 2023-05-11 20:14:14.019 [main] linksInAbout - opening webiste
+[DEBUG] 2023-05-11 20:14:15.869 [main] linksInAbout - go to about section
+[DEBUG] 2023-05-11 20:14:16.578 [main] linksInAbout - press on Home link under the tab "Quick Links" in the lower menu in About
+[INFO ] 2023-05-11 20:14:47.589 [main] selectItem - opening webiste
+[DEBUG] 2023-05-11 20:14:49.118 [main] selectItem - go to accessories store
+[DEBUG] 2023-05-11 20:14:49.513 [main] selectItem - open item
+[DEBUG] 2023-05-11 20:14:50.115 [main] selectItem - check if succeed
+[DEBUG] 2023-05-11 20:14:50.127 [main] selectItem - test pass
+[INFO ] 2023-05-11 20:14:52.705 [main] selectItem - opening webiste
+[DEBUG] 2023-05-11 20:14:54.449 [main] selectItem - go to store
+[DEBUG] 2023-05-11 20:14:55.041 [main] selectItem - open item
+[DEBUG] 2023-05-11 20:14:55.697 [main] selectItem - check if succeed
+[DEBUG] 2023-05-11 20:14:55.761 [main] selectItem - test pass
+[INFO ] 2023-05-11 20:14:57.417 [main] selectItem - opening webiste
+[DEBUG] 2023-05-11 20:14:59.176 [main] selectItem - go to women store
+[DEBUG] 2023-05-11 20:14:59.885 [main] selectItem - open item
+[DEBUG] 2023-05-11 20:15:00.651 [main] selectItem - check if succeed
+[DEBUG] 2023-05-11 20:15:00.769 [main] selectItem - test pass
+[INFO ] 2023-05-11 20:15:03.283 [main] selectItem - opening webiste
+[DEBUG] 2023-05-11 20:15:08.090 [main] selectItem - open item
+[DEBUG] 2023-05-11 20:15:08.998 [main] selectItem - test pass
+[INFO ] 2023-05-11 20:15:11.052 [main] selectItem - opening webiste
+[DEBUG] 2023-05-11 20:15:14.547 [main] selectItem - go to men store
+[DEBUG] 2023-05-11 20:15:15.626 [main] selectItem - open item
+[DEBUG] 2023-05-11 20:15:17.512 [main] selectItem - check if succeed
+[DEBUG] 2023-05-11 20:15:17.547 [main] selectItem - test pass
+[INFO ] 2023-05-11 20:15:36.991 [main] switchTopMenu - opening webiste
+[DEBUG] 2023-05-11 20:15:38.777 [main] switchTopMenu - switch to contact-us section
+[DEBUG] 2023-05-11 20:15:39.526 [main] switchTopMenu - test pass
+[INFO ] 2023-05-11 20:15:42.161 [main] switchTopMenu - opening webiste
+[DEBUG] 2023-05-11 20:15:43.977 [main] switchTopMenu - switch to women section
+[DEBUG] 2023-05-11 20:15:44.976 [main] switchTopMenu - switch to store section
+[DEBUG] 2023-05-11 20:15:45.754 [main] switchTopMenu - test pass
+[INFO ] 2023-05-11 20:15:47.597 [main] switchTopMenu - opening webiste
+[DEBUG] 2023-05-11 20:15:49.613 [main] switchTopMenu - switch to men section
+[DEBUG] 2023-05-11 20:15:50.621 [main] switchTopMenu - switch to women section
+[DEBUG] 2023-05-11 20:15:51.098 [main] switchTopMenu - test pass
+[INFO ] 2023-05-11 20:15:52.790 [main] switchTopMenu - opening webiste
+[DEBUG] 2023-05-11 20:15:54.637 [main] switchTopMenu - switch to about section
+[DEBUG] 2023-05-11 20:15:57.559 [main] switchTopMenu - test pass
+[INFO ] 2023-05-11 20:16:00.109 [main] switchTopMenu - opening webiste
+[DEBUG] 2023-05-11 20:16:04.069 [main] switchTopMenu - switch to store section
+[DEBUG] 2023-05-11 20:16:05.421 [main] switchTopMenu - switch to store section again
+[DEBUG] 2023-05-11 20:16:06.310 [main] switchTopMenu - test pass
+[INFO ] 2023-05-11 20:16:09.132 [main] switchTopMenu - opening webiste
+[DEBUG] 2023-05-11 20:16:11.762 [main] switchTopMenu - switch to store section
+[DEBUG] 2023-05-11 20:16:13.101 [main] switchTopMenu - test pass
+[INFO ] 2023-05-11 20:16:15.806 [main] switchTopMenu - opening webiste
+[DEBUG] 2023-05-11 20:16:18.112 [main] switchTopMenu - switch to women section
+[DEBUG] 2023-05-11 20:16:19.283 [main] switchTopMenu - test pass
+[INFO ] 2023-05-11 20:16:43.416 [main] updateCart - opening webiste
+[DEBUG] 2023-05-11 20:16:44.912 [main] updateCart - go to store
+[DEBUG] 2023-05-11 20:16:45.394 [main] updateCart - click on item
+[DEBUG] 2023-05-11 20:16:45.857 [main] updateCart - add the item to cart twice
+[DEBUG] 2023-05-11 20:16:47.119 [main] updateCart - go to cart
+[DEBUG] 2023-05-11 20:16:47.845 [main] updateCart - click on the X button
+[DEBUG] 2023-05-11 20:16:47.917 [main] updateCart - check for items in the cart
+[DEBUG] 2023-05-11 20:16:47.958 [main] updateCart - test pass
+[INFO ] 2023-05-11 20:16:50.473 [main] updateCart - opening webiste
+[DEBUG] 2023-05-11 20:16:52.505 [main] updateCart - go to store
+[DEBUG] 2023-05-11 20:16:53.131 [main] updateCart - click on item
+[DEBUG] 2023-05-11 20:16:53.738 [main] updateCart - add the item to cart
+[DEBUG] 2023-05-11 20:16:54.418 [main] updateCart - go to cart
+[DEBUG] 2023-05-11 20:16:55.096 [main] updateCart - go to quantity
+[DEBUG] 2023-05-11 20:16:55.107 [main] updateCart - Get the value of the quantity element
+[DEBUG] 2023-05-11 20:16:55.200 [main] updateCart - update cart
+[DEBUG] 2023-05-11 20:16:55.321 [main] updateCart - check if succeed
+[DEBUG] 2023-05-11 20:16:55.351 [main] updateCart - test pass
+[DEBUG] 2023-05-11 20:16:55.352 [main] updateCart - go to store
+[DEBUG] 2023-05-11 20:16:55.648 [main] updateCart - click on item
+[DEBUG] 2023-05-11 20:16:55.922 [main] updateCart - add the item to cart
+[DEBUG] 2023-05-11 20:16:56.487 [main] updateCart - go to cart
+[DEBUG] 2023-05-11 20:16:57.100 [main] updateCart - go to quantity
+[DEBUG] 2023-05-11 20:16:57.131 [main] updateCart - Get the value of the quantity element
+[DEBUG] 2023-05-11 20:16:57.204 [main] updateCart - update cart
+[DEBUG] 2023-05-11 20:16:57.310 [main] updateCart - check if succeed
+[DEBUG] 2023-05-11 20:16:57.376 [main] updateCart - test pass
+[INFO ] 2023-05-11 20:16:59.409 [main] updateCart - opening webiste
+[DEBUG] 2023-05-11 20:17:01.364 [main] updateCart - go to store
+[DEBUG] 2023-05-11 20:17:02.906 [main] updateCart - click on item
+[DEBUG] 2023-05-11 20:17:04.558 [main] updateCart - add the item to cart
+[DEBUG] 2023-05-11 20:17:05.316 [main] updateCart - go to cart
+[DEBUG] 2023-05-11 20:17:06.084 [main] updateCart - go to quantity
+[DEBUG] 2023-05-11 20:17:06.112 [main] updateCart - Get the value of the quantity element
+[DEBUG] 2023-05-11 20:17:06.279 [main] updateCart - update cart
+[DEBUG] 2023-05-11 20:17:06.585 [main] updateCart - check for items in the cart
+[DEBUG] 2023-05-11 20:17:06.692 [main] updateCart - test pass

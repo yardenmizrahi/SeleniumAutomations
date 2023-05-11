@@ -2,6 +2,7 @@ package automationTests;
 
 import freemarker.template.TemplateException;
 import io.github.sridharbandi.HtmlCsRunner;
+import io.github.sridharbandi.a11y.HTMLCS;
 import org.apache.logging.log4j.*;
 import org.junit.After;
 import org.junit.Before;
@@ -46,6 +47,7 @@ public class addToCart {
     public void setUp() throws IOException {
         driver = baseTestClass.initializeDriver();
         htmlCsRunner = new HtmlCsRunner(driver);
+        htmlCsRunner.setStandard(HTMLCS.WCAG2A);
         js = (JavascriptExecutor) driver;
         vars = new HashMap<String, Object>();
         logger = LogManager.getLogger(addToCart.class);
