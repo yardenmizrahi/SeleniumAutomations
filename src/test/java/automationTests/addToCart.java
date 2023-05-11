@@ -1,6 +1,9 @@
 package automationTests;
 
+import freemarker.template.TemplateException;
+import io.github.sridharbandi.HtmlCsRunner;
 import org.apache.logging.log4j.*;
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.internal.TextListener;
@@ -11,6 +14,7 @@ import org.openqa.selenium.WebDriver;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.net.URISyntaxException;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -36,10 +40,12 @@ public class addToCart {
     private Logger logger;
     private JSONArray values;
     private BaseTestClass baseTestClass;
+    private static HtmlCsRunner htmlCsRunner;
 
     @Before
     public void setUp() throws IOException {
         driver = baseTestClass.initializeDriver();
+        htmlCsRunner = new HtmlCsRunner(driver);
         js = (JavascriptExecutor) driver;
         vars = new HashMap<String, Object>();
         logger = LogManager.getLogger(addToCart.class);
@@ -56,6 +62,13 @@ public class addToCart {
         }
 
     }
+    @After
+    public void tearDown() throws TemplateException, IOException, URISyntaxException {
+        htmlCsRunner.execute();
+        // driver.quit();
+        htmlCsRunner.generateHtmlReport();
+    }
+
 
     public void checkProductAddedToCart(String productnName) {
         logger.debug("check product added to cart");

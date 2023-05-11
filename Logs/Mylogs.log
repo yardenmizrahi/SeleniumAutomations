@@ -471,3 +471,21 @@
 [DEBUG] 2023-05-11 18:24:52.733 [main] addToCart - get product name
 [DEBUG] 2023-05-11 18:24:52.733 [main] addToCart - check product added to cart
 [DEBUG] 2023-05-11 18:24:53.812 [main] addToCart - test pass
+[INFO ] 2023-05-11 18:53:21.033 [main] addToCart - opening webiste
+[DEBUG] 2023-05-11 18:53:22.544 [main] addToCart - go to store
+[DEBUG] 2023-05-11 18:53:23.041 [main] addToCart - go to product
+[DEBUG] 2023-05-11 18:53:23.414 [main] addToCart - add product to cart twice
+[DEBUG] 2023-05-11 18:53:25.229 [main] addToCart - go to cart
+[DEBUG] 2023-05-11 18:53:26.000 [main] addToCart - Get the value of the quantity element
+[DEBUG] 2023-05-11 18:53:26.024 [main] addToCart - test pass
+[INFO ] 2023-05-11 18:53:27.748 [main] addToCart - opening webiste
+[DEBUG] 2023-05-11 18:53:29.633 [main] addToCart - go to store
+[DEBUG] 2023-05-11 18:53:30.193 [main] addToCart - go to out-of-stock product
+[DEBUG] 2023-05-11 18:53:30.228 [main] addToCart - test pass
+[INFO ] 2023-05-11 18:53:31.335 [main] addToCart - opening webiste
+[DEBUG] 2023-05-11 18:53:33.219 [main] addToCart - go to store
+[DEBUG] 2023-05-11 18:53:33.735 [main] addToCart - click on product
+[DEBUG] 2023-05-11 18:53:34.496 [main] addToCart - add product to cart
+[DEBUG] 2023-05-11 18:53:34.591 [main] addToCart - get product name
+[DEBUG] 2023-05-11 18:53:34.592 [main] addToCart - check product added to cart
+[DEBUG] 2023-05-11 18:53:35.728 [main] addToCart - test pass
